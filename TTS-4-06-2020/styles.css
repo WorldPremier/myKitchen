@@ -1,0 +1,76 @@
+body{
+    background-color: lightgreen;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+}
+h2{
+    width: 200px;
+    margin-left: 400px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)),url();
+    background-size: contain;
+    background-position: center;
+    font-family: sans-serif;
+    resize: vertical;
+    font-family: 'Stick', sans-serif;
+
+
+}
+input[type=submit]:hover{
+    background-color: lightskyblue;
+}
+div{
+    padding: 10px;
+}
+p{
+    font-family: 'Stick', sans-serif;
+}
+.red{
+    font-family: 'Stick', sans-serif;
+font-size:100px;
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width : 768px) {
+	header {
+		position: absolute;
+		border-bottom: 4px solid red;
+	}
+	a, a:active, a:visited {
+		color: white;
+	}
+
+	#menu-icon {
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		background: #fff;
+		right: 0;		
+		border: 5px solid #000;
+		width: 100%;
+	}
+
+	nav li:last-of-type {
+		border-bottom: 0px;
+	}
+
+	nav ul li {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+		padding: 20px 0 20px 0;
+		background-color: red;
+		border-bottom: 1px solid #fff;
+	}
+
+	/*This makes sure the nav menu opens up */
+	nav:hover ul {
+		display: block;
+	}
+}

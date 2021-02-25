@@ -1,0 +1,52 @@
+
+
+.btn {
+    filter: invert(100%); 
+      -webkit-filter: invert(100%);
+}
+
+.btnBack {
+    background-color: red;
+}
+
+.right {
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 0px 10px 0px 0px;
+    color: white;
+}
+
+.rightBottom {
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+
+}
+
+.logoB {
+    background-color:red;
+ 
+}
+
+.btn.cart {
+    margin-left: -10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
